@@ -1,15 +1,53 @@
-<html>
-<head> 
-    <title>Diego Xavier</title>
-<link rel='stylesheet' href='style.css' />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photography</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="overlay"></div>
-    <div class="content">
-        <h1>Product and UI/UX Developer</h1>
-        <h2>Be Kind, Curious, and Responsible</h2>
-        <img src="DXlogo.jpg" alt="DX logo" class="dx-logo" weight=100 height=180>
-        <p> Front-end developer, UI/UX designer, and 3D modeler with global exposure, focused on creating functional, user-centered experiences. Known for empathy and a broad worldview, bringing a thoughtful, international perspective to design. Skilled in programming, with creative insights shaped by photography, music, and a passion for cooking. Dedicated to leading collaborative teams, optimizing processes, and delivering impactful, innovative solutions. </p>
-    </div>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li>
+                    <a href="https://www.dxdesola.com/photography" 
+                       target="_blank" 
+                       class="external-link">
+                       Visit My Photography Page
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to My Photography</h1>
+            <p>Capturing the beauty of the world through my lens.</p>
+        </section>
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <img src="images/portfolio1.jpg" alt="Photo 1">
+                <img src="images/portfolio2.jpg" alt="Photo 2">
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Photographer's Profile Picture">
+            <p>Hello! I'm a passionate photographer who loves capturing landscapes, structures, and creative moments.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 My Photography</p>
+    </footer>
 </body>
+</html>
